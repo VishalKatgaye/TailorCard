@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vishalkatgaye.tailorcard.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tailors"
+        android:scaleType="centerCrop"
+        android:id="@+id/background_image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Katgaye Tailors"
+        android:textSize="42sp"
+        android:textColor="#000055"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"
+        android:id="@+id/tailorname"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/suits"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="108dp"
+        android:contentDescription="Suit Specialist"
+        android:id="@+id/info_image"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tailoring"
+        android:layout_toRightOf="@id/info_image"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="108dp"
+        android:contentDescription="Best in class"
+        android:id="@+id/info"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Unique Way!"
+        android:textSize="24sp"
+        android:textColor="#003210"
+        android:textStyle="italic"
+        android:layout_below="@id/tailorname"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/info_text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_below="@id/info_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="72dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:id="@+id/address"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:text="Sindhi Lane, City: Lakhani."
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:id="@+id/addr_line1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addr_line1"
+        android:text="Dist: Bhandara, State: Maharashtra."
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:id="@+id/addr_line2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addr_line2"
+        android:text="India, Zip Code: 441804"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:id="@+id/addr_line3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timing"
+        android:layout_below="@id/addr_line3"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="80dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:id="@+id/time"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Openning Time: 9:30 AM"
+        android:layout_below="@id/time"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:id="@+id/open_time"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clossing Time: 9:30 PM"
+        android:layout_below="@id/open_time"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:id="@+id/close_time"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opened 12 x 7"
+        android:layout_below="@id/close_time"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="56dp"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+</RelativeLayout>

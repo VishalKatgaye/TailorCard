@@ -1,0 +1,4 @@
+My first challenge is to make a proper design of TailorCard app. I face following challenges on creating TailorCard app.
+1) When I start to design TailorCard App I took only one ImageView and one text view.
+2) But it was no proper, so after that I change its contains(i.e. images and texts) many times.
+3) I had trouble with defining proper alignment of views.
