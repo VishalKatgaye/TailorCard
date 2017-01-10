@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:text="Katgaye Tailors"
         android:textSize="42sp"
-        android:textColor="#000055"
+        android:textColor="@color/naveyBlue"
         android:layout_marginTop="16dp"
         android:layout_marginLeft="32dp"
         android:textStyle="bold"
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:text="A Unique Way!"
         android:textSize="24sp"
-        android:textColor="#003210"
+        android:textColor="@color/darkGreen"
         android:textStyle="italic"
         android:layout_below="@id/tailorname"
         android:layout_centerHorizontal="true"
@@ -60,7 +60,7 @@
         android:layout_marginTop="64dp"
         android:layout_marginRight="72dp"
         android:textSize="24sp"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:id="@+id/address"/>
     <TextView
         android:layout_width="wrap_content"
@@ -68,7 +68,7 @@
         android:layout_below="@id/address"
         android:text="Sindhi Lane, City: Lakhani."
         android:textSize="18sp"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:layout_alignParentRight="true"
         android:layout_marginRight="16dp"
         android:id="@+id/addr_line1"/>
@@ -78,7 +78,7 @@
         android:layout_below="@id/addr_line1"
         android:text="Dist: Bhandara, State: Maharashtra."
         android:textSize="18sp"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:layout_alignParentRight="true"
         android:layout_marginRight="2dp"
         android:id="@+id/addr_line2"/>
@@ -88,7 +88,7 @@
         android:layout_below="@id/addr_line2"
         android:text="India, Zip Code: 441804"
         android:textSize="18sp"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:layout_alignParentRight="true"
         android:layout_marginRight="28dp"
         android:id="@+id/addr_line3"/>
@@ -101,7 +101,7 @@
         android:layout_marginTop="28dp"
         android:layout_marginRight="80dp"
         android:textSize="24sp"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:id="@+id/time"/>
     <TextView
         android:layout_width="wrap_content"
@@ -111,7 +111,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="24dp"
         android:textSize="18sp"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:id="@+id/open_time"/>
     <TextView
         android:layout_width="wrap_content"
@@ -121,7 +121,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="24dp"
         android:textSize="18sp"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:id="@+id/close_time"/>
     <TextView
         android:layout_width="wrap_content"
@@ -131,5 +131,5 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="56dp"
         android:textSize="18sp"
-        android:textColor="#000000"/>
+        android:textColor="@color/black"/>
 </RelativeLayout>
